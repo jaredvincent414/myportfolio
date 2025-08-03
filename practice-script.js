@@ -1,20 +1,34 @@
+// Data Attributes
+// console.log("=== Data Attributes ===");
+
+// const customPic = document.querySelector('.custom');
+// console.log('Dataset of custom image:', customPic.dataset);
+
+// Using Data Attributes for Interaction
+console.log("=== Data Attributes Interaction ===");
+
+const customPic = document.querySelector('.custom');
+
+customPic.addEventListener('click', function() {
+  alert(`Welcome ${customPic.dataset.name} ${customPic.dataset.last}!`);
+});
+
+console.log('Click the first image to see the alert!');
 
 
 
+// Adding a class
+// console.log("=== Removing a Class ===");
 
+// const pic = document.querySelector(".nice");
+// pic.classList.remove("cool");
+// console.log('ClassList after removed:', pic.classList);
 
+// Working with classList
+// console.log("=== Working with ClassList ===");
 
-
-
-
-
-
-
-
-
-
-
-
+// const pic = document.querySelector('.nice');
+// console.log('Initial ClassList:', pic.classList);
 
 // console.log("textCont vs InnerText");
 // const mainHeaadingWithSpan = document.querySelector('h1');
