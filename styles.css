@@ -919,3 +919,6 @@ body, h1, h2, h3, h4, h5, h6, p, a, .btn, .hero-cta, .contact-container button, 
   overflow: hidden !important; 
   height: 100vh;
 }
+.hidden-text {
+  display: none;
+}
